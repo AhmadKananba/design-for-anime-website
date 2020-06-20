@@ -1,0 +1,394 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+
+body{
+     font-family: 'Arial', sans-serif;
+    background-color: #141b22;
+    
+}
+
+
+
+.top{
+   background-color:  #191919;
+    height: 90px;
+    
+}
+
+
+
+ul li a{
+    text-decoration: none;
+    color:#009ec3;
+    padding: 10px;
+    position: relative;
+    color: #2196f3;
+    
+   
+    
+}
+
+.list-style{
+    float:right;
+    margin-right: 20px;
+    margin-top:40px;
+    font-size: 20px;
+     font-family: 'Arial', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+a:hover{
+    color: #255784;
+    background: #2196f3;
+    box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 80px #2196f3;
+    border-radius: 25px;
+}
+
+ul li{
+    display: inline-block;
+       
+    
+}
+
+
+input {
+    margin-top: 30px;
+    height: 35px;
+    width: 170px;
+    margin-left: 30px;
+}
+
+#searchsubmit{
+    
+    height: 0px;
+    width:auto;
+   border: none;
+    position: absolute;
+    margin-top: 40px;
+   color: #2196f3;
+    background-color: black;
+    padding-left: 50px;
+    
+
+}
+
+#tr_live_search{
+    padding-left: 70px;
+    background-color: black;
+    border: 2px solid black;
+    color: white;
+    border-radius: 25px;
+    
+}
+
+input:hover{
+    color: #255784;
+    background: #2196f3;
+    box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 80px #2196f3;
+    border-radius: 10%;
+    
+}
+
+placeholder:hover{
+    color: white;
+}
+
+.box-shadow{
+    background-image: url(absr.jpg);
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    width: 100%;
+    height: auto;
+    top: 0;
+    bottom: 0;
+    z-index: -10;
+}
+
+.box-shadow::after{
+     content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    background: rgba(0, 0, 0, 0.6);
+    box-shadow: inset 120px 100px 250px #000000, inset -120px -100px 250px #000000;
+}
+
+header{
+ width: 100%;
+    
+    
+}
+
+
+
+.carousel1-container{
+width:100%;
+ overflow: hidden;
+   
+}
+
+
+.carousel1-slide{
+    display: flex;
+   width: 2000px;
+    height: 500px;
+    
+      
+}
+
+.carousel1-slide img{
+   width: 2000px;
+    height: 500px;
+    
+}
+
+#prevBtn{
+    position: absolute;
+    top:40%;
+    z-index:5454;
+    font-size: 50px;
+    color: #2196f3;
+    cursor: pointer;
+    margin-left: 2%;
+}
+
+#nextBtn{
+    position: absolute;
+    top:40%;
+    z-index: 56564456;
+    font-size: 50px;
+    color:#2196f3;
+    cursor: pointer;
+    margin-left: 96%;
+    
+}
+
+
+
+
+
+
+/*---------start slider2-------*/
+
+.slide2{
+  width: 100%;
+     overflow: hidden;
+    margin-top: 3rem;
+   
+
+   
+    
+   
+
+ 
+}
+
+.workpls  img{
+   
+}
+
+
+
+
+.workpls{
+ 
+   display: flex;
+   
+    
+     
+}
+
+
+
+
+
+#previousBtn{
+ position: absolute;
+   margin-top: 18rem;
+    z-index:5454;
+    font-size: 50px;
+    color: #2196f3;
+    cursor: pointer;
+    margin-left: 2%;
+
+}
+
+#nextButton{
+    margin-top: 18rem;
+  position: absolute;
+    z-index: 56564456;
+    font-size: 50px;
+    color:#2196f3;
+    cursor: pointer;
+    margin-left: 96%;
+}
+
+
+/*------------episoded--------*/
+
+.containerer{
+    width: 1280px;
+    min-height: 500px;
+    margin: 70px auto 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  
+    
+    
+}
+
+.containerer .box{
+    position: relative;
+    width: 300px;
+    height: 300px;
+    background: #ff0;
+    margin: 10px;
+ box-sizing: border-box;
+    display: inline-block;
+     
+}
+
+
+.imgBox{
+    position: relative;
+    overflow: hidden;
+}
+
+.imgBox img{
+width: 100%;
+   height: 300px;
+    transition: transform 2s;
+}
+
+.box:hover .imgBox img{
+    transform: scale(1.2);
+}
+
+.details{
+    position: absolute;
+   left: 0px;
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+    background: rgba(0,0,0,.8);
+    color: white;
+    transform: scaleY(0);
+    transition: transform .5s;
+   
+}
+
+.box:hover .details{
+    transform: scaleY(1);
+}
+
+.contant h1{
+ 
+    text-align: center;
+    font-size: 50px;
+    color: #255784;
+    font-weight:bold;
+    margin-top: 50%;
+}
+
+.contant h1:hover{
+    color: #255784;
+    background: #2196f3;
+    box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 80px #2196f3;
+    border-radius: 5%;
+}
+
+.pagination{
+    width: 100%;
+    float: left;
+    text-align: center;
+}
+
+.pagination div{
+    display: inline-block;
+    margin: 0 10px;
+    
+}
+
+.pagination .prev, .next{
+    color:#2196f3;
+    border: 1px solid #000;
+    font-size: 15px;
+    padding: 8px 15px;
+    cursor: pointer;
+}
+
+.page{
+    color:gray;
+}
+
+.box.hide{
+    display: none;
+}
+
+.box.show{
+    display: block;
+    animation: show .5s ease;
+}
+
+@keyframes show{
+    0%{
+        opacity: 0;
+        transform: scale(0.9);
+    }
+    
+    100%{
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+.prev.disabled, .next.disabled{
+    border-color: gray;
+    color: gray;
+    pointer-events: none;
+}
+
+.video{
+    font-size: 3rem;
+    text-align: center;
+    color:#255784;
+    font-weight: bold;
+    text-decoration: none;
+    margin-top: 1rem;
+}
+
+a{
+    text-decoration: none;
+}
+
+h1{
+    color: #255784;
+}
+
+/* videos */
+
+.vide{
+    width: 200px;
+    height: 170px;
+    margin-top: 3rem;
+    margin-left: 7rem;
+    border-bottom: 5px solid #255784;
+    
+    
+}
+
+video{
+    border: 1px solid #2196f3;
+    border-radius: 10px;
+}
